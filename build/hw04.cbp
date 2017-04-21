@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hw04"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Filip_000/Desktop/Git/c-modular-processing/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Filip_000/Desktop/Git/c-modular-processing/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw04">
+				<Option output="C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/hw04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Filip_000/Desktop/Git/c-modular-processing/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__USE_MINGW_ANSI_STDIO=1"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 hw04"/>
+					<CompileFile command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw04/fast">
+				<Option output="C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/hw04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Filip_000/Desktop/Git/c-modular-processing/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__USE_MINGW_ANSI_STDIO=1"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Software/Qt/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 hw04/fast"/>
+					<CompileFile command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Filip_000/Desktop/Git/c-modular-processing/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Software/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/Filip_000/Desktop/Git/c-modular-processing/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/config.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/config.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/functions.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/log.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/log.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/main.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-cache.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-cache.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-decorate.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-decorate.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-magic.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-magic.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-tolower.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-tolower.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-toupper.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module-toupper.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/module.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/query.c">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/query.h">
+			<Option target="hw04"/>
+		</Unit>
+		<Unit filename="C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
