@@ -11,6 +11,8 @@ config.h
 C:/Users/Filip_000/Desktop/Git/c-modular-processing/c-modular-processing/config.h
 stdio.h
 -
+ctype.h
+-
 stdlib.h
 -
 string.h
