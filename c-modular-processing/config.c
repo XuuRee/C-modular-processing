@@ -135,19 +135,13 @@ bool checkFirstSquareBracket(const char character)
 }
 
 
-bool lastSquareBracket(const char character)
-{
-    return (character == ']') ? true : false;
-}
-
-
 bool checkSecondSquareBracket(const char *line, unsigned int *end)
 {
     unsigned int length = strlen(line);
 
     for (unsigned int j = length - 1; j > 0; j--) {
         if (!isspace(line[j])) {
-            if (lastSquareBracket(line[j])) {
+            if (line[j] == ']') {
                 *end = j;
                 return true;
             } else {
