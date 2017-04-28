@@ -11,19 +11,15 @@ enum configValueType {
     CfgBool
 };
 
-struct configKeyValue {
-    char *key;
-    char *value;
-    enum configValueType valueType;
-};
-
-struct configSection {
+struct section {
     char *name;
-    struct configKeyValue **values;
+    char **values;
+    enum configValueType **valuesType;
+    struct section *next, *prev;
 };
 
 struct config {
-    struct configSection **section;
+    struct section *head, *end;
 };
 
 /** Read the config file

@@ -6,6 +6,79 @@
 #include <assert.h>
 #include <stdbool.h>
 
+
+void configInit(struct config *cfg)
+{
+    assert(cfg != NULL);
+
+    cfg->end = NULL;
+    cfg->head = NULL;
+}
+
+
+bool configPush(struct config *cfg, char *name)
+{
+    assert(cfg != NULL);
+    assert(name != NULL);
+
+    struct section *sec = malloc(sizeof *sec);
+
+    if (!sec) {
+        return false;
+    }
+
+    sec->name = (char *)malloc(strlen(name) + 1);
+
+    if (!sec->name) {
+        return false;
+    }
+
+    sec->values = calloc(10, sizeof(char *));
+
+    if (!sec->values) {
+        return false;
+    }
+
+    strcpy(sec->name, name);
+
+    if (!cfg->head) {
+        cfg->end = sec;
+        cfg->head = sec;
+        sec->prev = NULL;
+        sec->next = NULL;
+    } else {
+        sec->next = NULL;
+        sec->prev = cfg->end;
+        cfg->end->next = sec;
+        cfg->end = sec;
+    }
+
+    return true;
+}
+
+
+bool configAddValue(struct section *sec, char *value, unsigned int index, unsigned int *memory)
+{
+    assert(sec != NULL);
+    assert(value != NULL);
+
+    if (index >= *memory) {
+        sec->values = (char**)realloc(sec->values, (*memory + *memory) * sizeof(char *));
+        *memory += *memory;
+    }
+
+    sec->values[index] = (char *)malloc(strlen(value) + 1);
+
+    if (!sec->values[index]) {
+        return false;
+    }
+
+    strcpy(sec->values[index], value);
+
+    return true;
+}
+
+
 char* readLine(FILE *file)
 {
     char *buffer = NULL;
@@ -32,48 +105,41 @@ char* readLine(FILE *file)
     return buffer;
 }
 
+
+bool commentLine(const char character) {
+    return (character == ';') ? true : false;
+}
+
+
 bool unusedLine(const char *line)
 {
+    char character = line[0];
+
+    if (commentLine(character)) {
+        return true;
+    }
+
     for (unsigned int i = 0; i < strlen(line); i++) {
         if (!isspace(line[i])) {
-            if (line[i] == ';') {
-                return true;
-            } else {
-                return false;
-            }
+            return false;
         }
     }
 
     return true;
 }
 
-bool firstSquareBracket(const char character)
+
+bool checkFirstSquareBracket(const char character)
 {
     return (character == '[') ? true : false;
 }
 
-bool checkFirstSquareBracket(const char *line, unsigned int *start)
-{
-    unsigned int length = strlen(line);
-
-    for (unsigned int i = 0; i < length; i++) {
-        if (!isspace(line[i])) {
-            if (firstSquareBracket(line[i])) {
-                *start = i;
-                return true;
-            } else {
-                break;
-            }
-        }
-    }
-
-    return false;
-}
 
 bool lastSquareBracket(const char character)
 {
     return (character == ']') ? true : false;
 }
+
 
 bool checkSecondSquareBracket(const char *line, unsigned int *end)
 {
@@ -93,7 +159,8 @@ bool checkSecondSquareBracket(const char *line, unsigned int *end)
     return false;
 }
 
-bool ispunctuation(const char character)
+
+bool isPunctuation(const char character)
 {
     switch(character) {
     case '-': return true;
@@ -103,11 +170,13 @@ bool ispunctuation(const char character)
     }
 }
 
+
 bool checkSection(const char *line)
 {
-    unsigned int start = 0, end = 0;
+    unsigned int end = 0;
+    char character = line[0];
 
-    if (!checkFirstSquareBracket(line, &start)) {
+    if (!checkFirstSquareBracket(character)) {
         return false;
     }
 
@@ -115,11 +184,9 @@ bool checkSection(const char *line)
         return false;
     }
 
-    start += 1;
-
-    for (unsigned int i = start; i < end; i++) {
+    for (unsigned int i = 1; i < end; i++) {
         if (!isspace(line[i])) {
-            if (!(!isalpha(line[i]) || !ispunctuation(line[i]))) {
+            if (!(isalpha(line[i]) || isPunctuation(line[i]))) {
                 if (!isdigit(line[i])) {
                     return false;
                 }
@@ -129,6 +196,7 @@ bool checkSection(const char *line)
 
     return true;
 }
+
 
 char *strdup(const char *src)
 {
@@ -151,6 +219,7 @@ char *strdup(const char *src)
 
     return str;
 }
+
 
 bool checkKeyValue(const char *line)
 {
@@ -178,23 +247,85 @@ bool checkKeyValue(const char *line)
     return true;
 }
 
+
+bool validFile(FILE *file)
+{
+    bool sectionIndicator = false;
+    char *buffer = readLine(file);
+
+    while (buffer != NULL) {
+        if (!unusedLine(buffer)) {
+            if (checkSection(buffer)) {
+                sectionIndicator = true;
+            } else if (checkKeyValue(buffer)) {
+                if (!sectionIndicator) {
+                    free(buffer);
+                    return false;
+                }
+            } else {
+                free(buffer);
+                return false;
+            }
+        }
+        free(buffer);
+        buffer = readLine(file);
+    }
+
+    return true;
+}
+
+
 int configRead(struct config *cfg, const char *name)
 {
     assert(name != NULL);
+    assert(cfg != NULL);
 
     FILE* configFile = fopen(name, "r");
 
-    if (configFile == NULL) {
+    if (!configFile) {
         return 1;
     }
 
-    char *buffer = NULL;
-
-    do {
-        buffer = readLine(configFile);
-        // TODO
+    if (!validFile(configFile)) {
+        fclose(configFile);
+        return 2;
     }
-    while (buffer != NULL);
+
+    fseek(configFile, 0, SEEK_SET);
+
+    unsigned int index = 0;
+    unsigned int memory = 10;
+
+    cfg = malloc(sizeof *cfg);
+
+    if (!cfg) {
+        fclose(configFile);
+        return 2;
+    }
+
+    configInit(cfg);
+
+    char *buffer = readLine(configFile);
+
+    while (buffer != NULL) {
+        if (checkSection(buffer)) {
+            if (!configPush(cfg, buffer)) {
+                return 2;
+            }
+            memory = 10;
+            index = 0;
+        }
+
+        if (checkKeyValue(buffer)) {
+            if (!configAddValue(cfg->end, buffer, index, &memory)) {
+                return 2;
+            }
+            index++;
+        }
+
+        free(buffer);
+        buffer = readLine(configFile);
+    }
 
     fclose(configFile);
     return 0;
