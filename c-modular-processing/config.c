@@ -64,6 +64,11 @@ bool configAddValue(struct section *sec, char *value, unsigned int index, unsign
 
     if (index >= *memory) {
         sec->values = (char**)realloc(sec->values, (*memory + *memory) * sizeof(char *));
+
+        if (!sec->values) {
+            return false;
+        }
+
         *memory += *memory;
     }
 
