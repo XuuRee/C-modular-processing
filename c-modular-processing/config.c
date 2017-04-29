@@ -16,6 +16,14 @@ void configInit(struct config *cfg)
 }
 
 
+void configInitMemory(char **values, unsigned int index)
+{
+    for (unsigned int i = index; i < index + 10; i++) {
+        values[i] = NULL;
+    }
+}
+
+
 bool configPush(struct config *cfg, char *name)
 {
     assert(cfg != NULL);
@@ -34,6 +42,7 @@ bool configPush(struct config *cfg, char *name)
     }
 
     sec->values = calloc(10, sizeof(char *));
+    configInitMemory(sec->values, 0);
 
     if (!sec->values) {
         return false;
@@ -57,7 +66,10 @@ bool configPush(struct config *cfg, char *name)
 }
 
 
-bool configAddValue(struct section *sec, char *value, unsigned int index, unsigned int *memory)
+bool configAddValue(struct section *sec,
+                    char *value,
+                    unsigned int index,
+                    unsigned int *memory)
 {
     assert(sec != NULL);
     assert(value != NULL);
@@ -69,6 +81,7 @@ bool configAddValue(struct section *sec, char *value, unsigned int index, unsign
             return false;
         }
 
+        configInitMemory(sec->values, *memory);
         *memory += *memory;
     }
 
@@ -79,7 +92,6 @@ bool configAddValue(struct section *sec, char *value, unsigned int index, unsign
     }
 
     strcpy(sec->values[index], value);
-
     return true;
 }
 
@@ -99,6 +111,7 @@ char* readLine(FILE *file)
         }
 
         buffer = tmp;
+
         if (!fgets(buffer + size, incr + 1, file)) {
             free(buffer);
             return NULL;
@@ -285,6 +298,8 @@ int configRead(struct config *cfg, const char *name)
         return 1;
     }
 
+    configInit(cfg);
+
     if (!validFile(configFile)) {
         fclose(configFile);
         return 2;
@@ -295,21 +310,13 @@ int configRead(struct config *cfg, const char *name)
     unsigned int index = 0;
     unsigned int memory = 10;
 
-    cfg = malloc(sizeof *cfg);
-
-    if (!cfg) {
-        fclose(configFile);
-        return 2;
-    }
-
-    configInit(cfg);
-
     char *buffer = readLine(configFile);
 
     while (buffer != NULL) {
         if (checkSection(buffer)) {
             if (!configPush(cfg, buffer)) {
-                return 2;
+                fclose(configFile);
+                return 1;
             }
             memory = 10;
             index = 0;
@@ -317,7 +324,8 @@ int configRead(struct config *cfg, const char *name)
 
         if (checkKeyValue(buffer)) {
             if (!configAddValue(cfg->end, buffer, index, &memory)) {
-                return 2;
+                fclose(configFile);
+                return 1;
             }
             index++;
         }
@@ -342,7 +350,31 @@ int configValue(const struct config *cfg,
 }
 
 
+void configCleanValues(char **values)
+{
+    for (unsigned int i = 0; values[i] != NULL; i++) {
+        free(values[i]);
+    }
+
+    free(values);
+}
+
+
 void configClean(struct config *cfg)
 {
-    /// TODO: implement
+    if (cfg->head && cfg->end) {
+        struct section *next = NULL;
+        struct section *current = cfg->head;
+
+        while (current != NULL) {
+            next = current->next;
+            free(current->name);
+            configCleanValues(current->values);
+            free(current);
+            current = next;
+        }
+
+        cfg->head = NULL;
+        cfg->end = NULL;
+    }
 }
