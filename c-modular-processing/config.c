@@ -260,8 +260,48 @@ bool checkKeyValue(const char *line)
 }
 
 
+void configCleanValues(char **values)
+{
+    for (unsigned int i = 0; values[i] != NULL; i++) {
+        free(values[i]);
+    }
+
+    free(values);
+}
+
+
+bool searchDuplicity(char **sections, char *last)
+{
+    char *tokenLast = strtok(last, " \t\n\v\f\r[]");
+    unsigned int counter = 0;
+
+    for(unsigned int i = 0; sections[i] != NULL; i++) {
+        char *tokenElement = strtok(sections[i], " \t\n\v\f\r[]");
+        if (strcmp(tokenElement, tokenLast) == 0) {
+            counter++;
+        }
+    }
+
+    if (counter > 1) {
+        return true;
+    }
+
+    return false;
+}
+
+
 bool validFile(FILE *file)
 {
+    char **sections = (char**)calloc(10, sizeof(char*));
+
+    if (!sections) {
+        return false;
+    }
+
+    configInitMemory(sections, 0);
+    unsigned int memory = 10;
+    unsigned int index = 0;
+
     bool sectionIndicator = false;
     char *buffer = readLine(file);
 
@@ -269,6 +309,20 @@ bool validFile(FILE *file)
         if (!unusedLine(buffer)) {
             if (checkSection(buffer)) {
                 sectionIndicator = true;
+                if (index >= memory) {
+                    sections = (char**)realloc(sections, (memory + memory) * sizeof(char*));
+                    if (!sections) return false;
+                    configInitMemory(sections, memory);
+                    memory += memory;
+                }
+                sections[index] = (char*)calloc(strlen(buffer) + 1, sizeof(char));
+                if (!sections[index]) return false;
+                strcpy(sections[index], buffer);
+                index++;
+                if (searchDuplicity(sections, buffer)) {
+                    configCleanValues(sections);
+                    return false;
+                }
             } else if (checkKeyValue(buffer)) {
                 if (!sectionIndicator) {
                     free(buffer);
@@ -283,6 +337,7 @@ bool validFile(FILE *file)
         buffer = readLine(file);
     }
 
+    configCleanValues(sections);
     return true;
 }
 
@@ -347,16 +402,6 @@ int configValue(const struct config *cfg,
 {
     /// TODO: implement
     return 2;
-}
-
-
-void configCleanValues(char **values)
-{
-    for (unsigned int i = 0; values[i] != NULL; i++) {
-        free(values[i]);
-    }
-
-    free(values);
 }
 
 
