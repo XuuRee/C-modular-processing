@@ -7,7 +7,7 @@
 #include <stdbool.h>
 
 
-void configInit(struct config *cfg)
+void listInit(struct config *cfg)
 {
     assert(cfg != NULL);
 
@@ -16,11 +16,25 @@ void configInit(struct config *cfg)
 }
 
 
-void configInitMemory(char **values, unsigned int index)
+void memoryInit(char **values, unsigned int index)
 {
     for (unsigned int i = index; i < index + 10; i++) {
         values[i] = NULL;
     }
+}
+
+
+bool reallocate2D(char ***values, unsigned int *memory)
+{
+    *values = (char**)realloc(*values, (*memory + *memory) * sizeof(char*));
+
+    if (!*values) {
+        return false;
+    }
+
+    memoryInit(*values, *memory);
+    *memory += *memory;
+    return true;
 }
 
 
@@ -30,25 +44,21 @@ bool configPush(struct config *cfg, char *name)
     assert(name != NULL);
 
     struct section *sec = malloc(sizeof *sec);
+    if (!sec) return false;
 
-    if (!sec) {
-        return false;
-    }
-
-    sec->name = (char *)malloc(strlen(name) + 1);
-
-    if (!sec->name) {
-        return false;
-    }
-
-    sec->values = calloc(10, sizeof(char *));
-    configInitMemory(sec->values, 0);
-
-    if (!sec->values) {
-        return false;
-    }
+    sec->name = (char*)malloc(strlen(name) + 1);
+    if (!sec->name) return false;
 
     strcpy(sec->name, name);
+
+    sec->keys = calloc(10, sizeof(char*));
+    if (!sec->keys) return false;
+
+    sec->values = calloc(10, sizeof(char*));
+    if (!sec->values) return false;
+
+    memoryInit(sec->keys, 0);
+    memoryInit(sec->values, 0);
 
     if (!cfg->head) {
         cfg->end = sec;
@@ -66,37 +76,87 @@ bool configPush(struct config *cfg, char *name)
 }
 
 
+unsigned int startIndex(char *value)
+{
+    unsigned int start = 0;
+
+    for (unsigned int i = 0; i < strlen(value); i++) {
+        if (!isspace(value[i])) {
+            if (value[i] != '=') {
+                start = i;
+                break;
+            }
+        }
+    }
+
+    return start;
+}
+
+
+unsigned int endIndex(char *value)
+{
+    unsigned int end = strlen(value);
+
+    if (end == 1) {
+        return 1;
+    }
+
+    for (unsigned int i = end - 1; i > 0; i--) {
+        if (!isspace(value[i])) {
+            end = i + 1;
+            break;
+        }
+    }
+
+    return end;
+}
+
+
 bool configAddValue(struct section *sec,
-                    char *value,
+                    char *buffer,
                     unsigned int index,
                     unsigned int *memory)
 {
     assert(sec != NULL);
-    assert(value != NULL);
 
     if (index >= *memory) {
-        sec->values = (char**)realloc(sec->values, (*memory + *memory) * sizeof(char *));
+        sec->keys = (char**)realloc(sec->keys, (*memory + *memory) * sizeof(char*));
+        sec->values = (char**)realloc(sec->values, (*memory + *memory) * sizeof(char*));
 
-        if (!sec->values) {
+        if (!sec->keys || !sec->values) {
             return false;
         }
 
-        configInitMemory(sec->values, *memory);
+        memoryInit(sec->keys, *memory);
+        memoryInit(sec->values, *memory);
         *memory += *memory;
     }
 
-    sec->values[index] = (char *)malloc(strlen(value) + 1);
+    char *key = strtok(buffer, " \t\n\v\f\r=");
+    char *value = strtok(NULL, "\n");
 
-    if (!sec->values[index]) {
+    if (key && !value) {
+        value = "";
+    } else {
+        value = value + startIndex(value);;
+        unsigned int end = endIndex(value);
+        value[end] = '\0';
+    }
+
+    sec->keys[index] = (char*)malloc(strlen(key) + 1);
+    sec->values[index] = (char*)malloc(strlen(value) + 1);
+
+    if (!sec->keys[index] || !sec->values[index]) {
         return false;
     }
 
+    strcpy(sec->keys[index], key);
     strcpy(sec->values[index], value);
     return true;
 }
 
 
-char* readLine(FILE *file)
+char *readLine(FILE *file)
 {
     char *buffer = NULL;
     int   size   = 0;
@@ -111,7 +171,6 @@ char* readLine(FILE *file)
         }
 
         buffer = tmp;
-
         if (!fgets(buffer + size, incr + 1, file)) {
             free(buffer);
             return NULL;
@@ -124,16 +183,30 @@ char* readLine(FILE *file)
 }
 
 
-bool commentLine(const char character) {
+/**
+ * Check if the first character of line is ';'
+ *
+ * @param   character const char
+ * @return  true if characters are equal,
+ *          false otherwise
+ */
+bool commentLine(const char character)
+{
     return (character == ';') ? true : false;
 }
 
 
+/**
+ * Check if given line of the file is useless.
+ * That means if there is commentary, empty line
+ * or whitespaces.
+ *
+ * @param   line given line from file (buffer)
+ * @return  true if line is useless, false otherwise
+ */
 bool unusedLine(const char *line)
 {
-    char character = line[0];
-
-    if (commentLine(character)) {
+    if (commentLine(line[0])) {
         return true;
     }
 
@@ -172,6 +245,14 @@ bool checkSecondSquareBracket(const char *line, unsigned int *end)
 }
 
 
+/**
+ * Check if given char is allowed character
+ * (one of the: dash, underscore or colon)
+ *
+ * @param   character given char from line
+ * @return  true if character is allowed,
+ *          false otherwise
+ */
 bool isPunctuation(const char character)
 {
     switch(character) {
@@ -183,12 +264,19 @@ bool isPunctuation(const char character)
 }
 
 
+/**
+ * Check if given section fulfill criteria
+ * from task.
+ *
+ * @param   line given line of the file (buffer)
+ * @return  true if line is fine, false otherwise
+ */
 bool checkSection(const char *line)
 {
     unsigned int end = 0;
-    char character = line[0];
+    unsigned int start = 0;
 
-    if (!checkFirstSquareBracket(character)) {
+    if (!checkFirstSquareBracket(line[0])) {
         return false;
     }
 
@@ -196,12 +284,28 @@ bool checkSection(const char *line)
         return false;
     }
 
+    if (strlen(line) == 3) {
+        return false;
+    }
+
     for (unsigned int i = 1; i < end; i++) {
         if (!isspace(line[i])) {
-            if (!(isalpha(line[i]) || isPunctuation(line[i]))) {
-                if (!isdigit(line[i])) {
-                    return false;
-                }
+            start = i;
+            break;
+        }
+    }
+
+    for (unsigned int i = end - 1; i > 0; i--) {
+        if (!isspace(line[i])) {
+            end = i;
+            break;
+        }
+    }
+
+    for (unsigned int i = start; i < end + 1; i++) {
+        if (!(isalpha(line[i]) || isPunctuation(line[i]))) {
+            if (!isdigit(line[i])) {
+                return false;
             }
         }
    }
@@ -210,57 +314,47 @@ bool checkSection(const char *line)
 }
 
 
-char *strdup(const char *src)
-{
-    char *str;
-    char *p;
-    int len = 0;
-
-    while (src[len]) {
-        len++;
-    }
-
-    str = malloc(len + 1);
-    p = str;
-
-    while (*src) {
-        *p++ = *src++;
-    }
-
-    *p = '\0';
-
-    return str;
-}
-
-
 bool checkKeyValue(const char *line)
 {
-    char *copy = strdup(line);
+    unsigned int equal = 0;
+    unsigned int start = 0, end = 0;
 
-    if (!copy) {
+    for (unsigned int i = 0; i < strlen(line); i++) {
+        if (line[i] == '=') {
+            equal = i;
+            break;
+        }
+    }
+
+    if (!equal) {
         return false;
     }
 
-    char *token = strtok(copy, " \t\n\v\f\r=");
-
-    if (!token) {
-        free(copy);
-        return false;
+    for (unsigned int i = 0; i < equal; i++) {
+        if (!isspace(line[i])) {
+            start = i;
+            break;
+        }
     }
 
-    for (unsigned int i = 0; token[i] != '\0'; i++) {
-        if (!(isdigit(token[i]) || isalpha(token[i]))) {
-            free(copy);
+    for (unsigned int i = equal - 1; i > start; i--) {
+        if (!isspace(line[i])) {
+            end = i;
+            break;
+        }
+    }
+
+    for (unsigned int i = start; i < end + 1; i++) {
+        if (!(isdigit(line[i]) || isalpha(line[i]))) {
             return false;
         }
     }
 
-    free(copy);
     return true;
 }
 
 
-void configCleanValues(char **values)
+void cleanValues(char **values)
 {
     for (unsigned int i = 0; values[i] != NULL; i++) {
         free(values[i]);
@@ -270,20 +364,32 @@ void configCleanValues(char **values)
 }
 
 
-bool searchDuplicity(char **sections, char *last)
+bool searchDuplicitySections(char **sections, char *last, unsigned int index)
 {
     char *tokenLast = strtok(last, " \t\n\v\f\r[]");
-    unsigned int counter = 0;
 
-    for(unsigned int i = 0; sections[i] != NULL; i++) {
+    for(unsigned int i = 0; i < index; i++) {
         char *tokenElement = strtok(sections[i], " \t\n\v\f\r[]");
+
         if (strcmp(tokenElement, tokenLast) == 0) {
-            counter++;
+            return true;
         }
     }
 
-    if (counter > 1) {
-        return true;
+    return false;
+}
+
+
+bool searchDuplicityKeys(char **keys, char *last, unsigned int index)
+{
+    char *tokenLast = strtok(last, " \t\n\v\f\r=");
+
+    for(unsigned int i = 0; i < index; i++) {
+        char *tokenElement = strtok(keys[i], " \t\n\v\f\r=");
+
+        if (strcmp(tokenElement, tokenLast) == 0) {
+            return true;
+        }
     }
 
     return false;
@@ -293,51 +399,104 @@ bool searchDuplicity(char **sections, char *last)
 bool validFile(FILE *file)
 {
     char **sections = (char**)calloc(10, sizeof(char*));
+    char **keys = (char**)calloc(10, sizeof(char*));
 
-    if (!sections) {
+    if (!sections || !keys) {
         return false;
     }
 
-    configInitMemory(sections, 0);
-    unsigned int memory = 10;
-    unsigned int index = 0;
+    memoryInit(sections, 0);
 
-    bool sectionIndicator = false;
+    unsigned int memorySections = 10, memoryKeys = 10;
+    unsigned int indexSections = 0, indexKeys = 0;
+
+    bool firstSectionIndicator = false;
+    bool newSectionIndicator = false;
+
     char *buffer = readLine(file);
 
     while (buffer != NULL) {
         if (!unusedLine(buffer)) {
+            // Check if section is valid
             if (checkSection(buffer)) {
-                sectionIndicator = true;
-                if (index >= memory) {
-                    sections = (char**)realloc(sections, (memory + memory) * sizeof(char*));
-                    if (!sections) return false;
-                    configInitMemory(sections, memory);
-                    memory += memory;
+                firstSectionIndicator = true;
+                newSectionIndicator = true;
+                if (indexSections >= memorySections) {
+                    if (!reallocate2D(&sections, &memorySections)) {
+                        cleanValues(sections);
+                        cleanValues(keys);
+                        free(buffer);
+                        return false;
+                    }
                 }
-                sections[index] = (char*)calloc(strlen(buffer) + 1, sizeof(char));
-                if (!sections[index]) return false;
-                strcpy(sections[index], buffer);
-                index++;
-                if (searchDuplicity(sections, buffer)) {
-                    configCleanValues(sections);
-                    return false;
-                }
-            } else if (checkKeyValue(buffer)) {
-                if (!sectionIndicator) {
+                sections[indexSections] = (char*)calloc(strlen(buffer) + 1, sizeof(char));
+                if (!sections[indexSections]) {
+                    cleanValues(sections);
+                    cleanValues(keys);
                     free(buffer);
                     return false;
                 }
-            } else {
+                strcpy(sections[indexSections], buffer);
+                if (searchDuplicitySections(sections, buffer, indexSections)) {
+                    cleanValues(sections);
+                    cleanValues(keys);
+                    free(buffer);
+                    return false;
+                }
+                indexSections++;
+            }
+            // Check if keys and values are valid
+            else if (checkKeyValue(buffer)) {
+                if (!firstSectionIndicator) {
+                    cleanValues(sections);
+                    cleanValues(keys);
+                    free(buffer);
+                    return false;
+                }
+                if (newSectionIndicator) {
+                    newSectionIndicator = false;
+                    memoryInit(keys, 0);
+                    memoryKeys = 10;
+                    indexKeys = 0;
+                }
+                if (indexKeys >= memoryKeys) {
+                    if (!reallocate2D(&keys, &memoryKeys)) {
+                        cleanValues(sections);
+                        cleanValues(keys);
+                        free(buffer);
+                        return false;
+                    }
+                }
+                keys[indexKeys] = (char*)calloc(strlen(buffer) + 1, sizeof(char));
+                if (!keys[indexKeys]) {
+                    cleanValues(sections);
+                    cleanValues(keys);
+                    free(buffer);
+                    return false;
+                }
+                strcpy(keys[indexKeys], buffer);
+                if (searchDuplicityKeys(keys, buffer, indexKeys)) {
+                    cleanValues(sections);
+                    cleanValues(keys);
+                    free(buffer);
+                    return false;
+                }
+                indexKeys++;
+            }
+            else {
+                cleanValues(sections);
+                cleanValues(keys);
                 free(buffer);
                 return false;
             }
         }
+
         free(buffer);
         buffer = readLine(file);
     }
 
-    configCleanValues(sections);
+    cleanValues(sections);
+    cleanValues(keys);
     return true;
 }
 
@@ -353,7 +512,7 @@ int configRead(struct config *cfg, const char *name)
         return 1;
     }
 
-    configInit(cfg);
+    listInit(cfg);
 
     if (!validFile(configFile)) {
         fclose(configFile);
@@ -368,23 +527,25 @@ int configRead(struct config *cfg, const char *name)
     char *buffer = readLine(configFile);
 
     while (buffer != NULL) {
-        if (checkSection(buffer)) {
-            if (!configPush(cfg, buffer)) {
-                fclose(configFile);
-                return 1;
+        if (!unusedLine(buffer)) {
+            if (checkFirstSquareBracket(buffer[0])) {
+                char *name = strtok(buffer, " \t\n\v\f\r[]");
+                if (!configPush(cfg, name)) {
+                    free(buffer);
+                    fclose(configFile);
+                    return 1;
+                }
+                index = 0;
+                memory = 10;
+            } else {
+                if (!configAddValue(cfg->end, buffer, index, &memory)) {
+                    free(buffer);
+                    fclose(configFile);
+                    return 1;
+                }
+                index++;
             }
-            memory = 10;
-            index = 0;
         }
-
-        if (checkKeyValue(buffer)) {
-            if (!configAddValue(cfg->end, buffer, index, &memory)) {
-                fclose(configFile);
-                return 1;
-            }
-            index++;
-        }
-
         free(buffer);
         buffer = readLine(configFile);
     }
@@ -394,13 +555,80 @@ int configRead(struct config *cfg, const char *name)
 }
 
 
+bool findKey(char **keys, const char *seek, unsigned int *index)
+{
+    while (*keys) {
+        if (strcmp(*keys, seek) == 0) {
+            return true;
+        }
+        keys++;
+        (*index)++;
+    }
+
+    return false;
+}
+
+
 int configValue(const struct config *cfg,
                 const char *section,
                 const char *key,
                 enum configValueType type,
                 void *value)
 {
-    /// TODO: implement
+    assert(cfg != NULL);
+    assert(key != NULL);
+    assert(section != NULL);
+
+    struct section *current = cfg->head;
+
+    unsigned int index = 0;
+    bool isSection = false;
+
+    while (current != NULL && isSection != true) {
+        if (strcmp(current->name, section) == 0) {
+            isSection = true;
+            if (findKey(current->keys, key, &index)) {
+                char *valueFromCfg = current->values[index], *buffer;
+                int resultInteger = -1, *result = &resultInteger;
+                switch(type) {
+                case CfgString:
+                    *((const char**)value) = valueFromCfg;
+                    return 0;
+
+                case CfgInteger:
+                    resultInteger = strtol(valueFromCfg, &buffer, 10);
+                    if (valueFromCfg == buffer) {
+                        return 3;
+                    }
+                    if (*result == 1 || *result == 0) {
+                        return 3;
+                    }
+                    *((int*)value) = *result;
+                    return 0;
+
+                case CfgBool:
+                    resultInteger = strtol(valueFromCfg, &buffer, 10);
+                    if (valueFromCfg == buffer) {
+                        return 3;
+                    }
+                    if (*result != 1 && *result != 0) {
+                        return 3;
+                    }
+                    *((int*)value) = *result;
+                    return 0;
+                default:
+                    return 4;
+                }
+            }
+        }
+
+        current = current->next;
+    }
+
+    if (!isSection) {
+        return 1;
+    }
+
     return 2;
 }
 
@@ -414,7 +642,8 @@ void configClean(struct config *cfg)
         while (current != NULL) {
             next = current->next;
             free(current->name);
-            configCleanValues(current->values);
+            cleanValues(current->keys);
+            cleanValues(current->values);
             free(current);
             current = next;
         }

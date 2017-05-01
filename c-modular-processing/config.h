@@ -13,8 +13,8 @@ enum configValueType {
 
 struct section {
     char *name;
+    char **keys;
     char **values;
-    enum configValueType **valuesType;
     struct section *next, *prev;
 };
 
