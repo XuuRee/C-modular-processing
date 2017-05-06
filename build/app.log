@@ -1,0 +1,1260 @@
+.617213 [D]: Loading config of section 'module::cache' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:121}
+.719188 [D]: Loading config of section 'module::decorate' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:121}
+.950318 [D]: Decoration prefix: [1;4;31m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\module-decorate.c:103}
+.571617 [I]: Start {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:180}
+.196722 [D]: Opening file 'small.txt' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:134}
+.197304 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.197724 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.197724 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.198225 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.198225 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.198724 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.198724 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.198724 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.199242 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.646024 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.646523 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.181447 [I]: response: [1;4;31m[1;4;31mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.014490 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.014490 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.014991 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.014991 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.014991 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.015491 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.015491 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.015491 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.015991 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.117444 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.117444 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.028484 [I]: response: [1;4;31m[1;4;31mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.599687 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.599687 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.599687 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.600187 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.600187 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.600688 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.601187 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.601187 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.601187 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.499003 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.499003 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.215320 [I]: response: [1;4;31m[1;4;31m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.560538 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.561039 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.561538 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.561538 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.562041 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.562041 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.562041 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.562539 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.562539 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.975480 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.975480 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.220689 [I]: response: [1;4;31m[1;4;31mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.582926 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.582926 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.582926 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.583426 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.583426 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.583924 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.583924 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.583924 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.584424 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.802079 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.802577 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.030085 [I]: response: [1;4;31m[1;4;31myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.454179 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.454679 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.454679 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.455180 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.455680 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.455680 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.455680 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.456180 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.456180 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.660769 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.661270 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.865636 [I]: response: [1;4;31m[1;4;31mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.287702 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.288220 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.288220 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.288220 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.288220 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.288706 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.288706 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.288706 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.289204 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.513874 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.514374 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.698003 [I]: response: [1;4;31m[1;4;31mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.145338 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.145338 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.145338 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.145835 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.145835 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.145835 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.146336 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.146336 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.146336 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.343536 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.343536 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.590797 [I]: response: [1;4;31m[1;4;31mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.016578 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.016578 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.017080 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.017080 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.017595 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.017595 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.017595 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.018079 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.018079 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.228603 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.228603 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.446684 [I]: response: [1;4;31m[1;4;31mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.875640 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.876138 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.876138 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.876138 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.876638 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.876638 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.877139 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.877139 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.877139 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.098174 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.098174 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.332398 [I]: response: [1;4;31m[1;4;31mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.763460 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.763961 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.763961 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.763961 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.764460 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.764460 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.764961 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.764961 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.764961 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.991380 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.991884 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.220679 [I]: response: [1;4;31m[1;4;31mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.680349 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.680848 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.680848 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.681350 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.681470 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.681470 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.681851 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.681851 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.681851 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.915547 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.916042 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.146649 [I]: response: [1;4;31m[1;4;31mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.599168 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.599666 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.599666 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.600184 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.600184 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.600184 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.600668 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.600668 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.601185 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.838747 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.839247 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.070683 [I]: response: [1;4;31m[1;4;31m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.512018 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.512519 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.512519 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.513016 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.513016 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.513516 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.513516 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.513516 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.514017 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.760220 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.760220 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.989616 [I]: response: [1;4;31m[1;4;31mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.414270 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.414270 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.414771 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.414771 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.415271 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.415271 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.415271 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.415772 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.415772 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.646267 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.646267 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.875259 [I]: response: [1;4;31m[1;4;31myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.307965 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.308468 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.308468 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.308979 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.308979 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.308979 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.309484 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.309484 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.309484 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.528589 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.528589 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.761293 [I]: response: [1;4;31m[1;4;31mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.213970 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.213970 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.213970 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.214470 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.214470 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.214982 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.214982 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.214982 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.215489 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.415447 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.415948 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.646114 [I]: response: [1;4;31m[1;4;31mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.115740 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.115740 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.116240 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.116240 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.116240 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.116740 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.116740 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.116740 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.117241 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.344687 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.344687 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.590564 [I]: response: [1;4;31m[1;4;31mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.045096 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.045596 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.045596 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.046098 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.046098 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.046098 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.046598 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.046598 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.046598 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.279343 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.279343 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.528732 [I]: response: [1;4;31m[1;4;31mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.999434 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:148}
+.999434 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:24}
+.999434 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.999935 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.999935 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.999935 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.000437 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:28}
+.000437 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:33}
+.000954 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:45}
+.241028 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.241028 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:50}
+.461555 [I]: response: [1;4;31m[1;4;31mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:55}
+.514701 [I]: Finished {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:197}
+.242312 [W]: config file config.conf is missing {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:222}
+.246315 [I]: Start {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:226}
+.246315 [D]: Opening file 'small.txt' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:179}
+.246816 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.247316 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.247316 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.247316 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.247316 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.247816 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.247816 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.247816 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.248316 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.854311 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.622889 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.178209 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.225350 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.225350 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.225853 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.225853 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.225853 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.226349 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.226349 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.226349 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.226849 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.302070 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.114822 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.100241 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.638010 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.638010 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.638010 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.638513 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.638513 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.639011 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.639011 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.639511 [I]: Response success {C:\Users\Filip_000\Desktop\Git.917486 [W]: config file config.conf is missing {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:222}
+.921501 [I]: Start {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:226}
+.921501 [D]: Opening file 'small.txt' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:179}
+.921983 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.921983 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.922498 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.922498 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.922498 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.923001 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.923001 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.923001 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.923485 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.745400 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.699011 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.729746 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.190402 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.190903 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.190903 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.191403 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.191403 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.191403 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.191903 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.191903 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.192411 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.929891 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.683171 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.562238 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.961178 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.961178 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.961674 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.961674 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.961674 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.962174 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.962174 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.962677 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.962677 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.671413 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.420982 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.578260 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.983049 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.983049 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.983546 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.983546 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.983546 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.984046 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.984046 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.984046 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.984547 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.180186 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.380348 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.574812 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.966587 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.967085 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.967085 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.967602 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.967602 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.967602 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.968102 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.968102 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.968591 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.177733 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.396829 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.610690 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.073221 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.073221 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.073721 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.073721 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.073721 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.073721 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.074223 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.074722 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.074722 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.530966 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.045064 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.224785 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.984870 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.985381 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.985381 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.985381 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.985889 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.985889 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.985889 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.986371 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.986371 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.173074 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.721063 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.092859 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.907574 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.907574 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.908074 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.908074 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.908074 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.908574 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.908574 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.909074 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.909074 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.680434 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.286297 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.095164 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.499518 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.499518 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.499518 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.500019 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.500019 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.500519 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.500519 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.501019 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.501019 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.224289 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.877459 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.065094 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.830076 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.830076 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.830076 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.830576 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.830576 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.831076 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.831076 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.831076 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.831577 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.500268 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.673275 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.862410 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.256341 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.256341 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.256341 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.256847 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.256847 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.257342 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.257342 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.257843 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.257843 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.451636 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.654916 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.849249 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.271755 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.271755 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.272257 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.272257 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.272773 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.272773 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.272773 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.273258 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.273258 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.484972 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.721503 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.939192 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.339075 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.339577 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.339577 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.340075 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.340075 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.340578 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.340578 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.340578 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.341076 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.542345 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.740557 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.940725 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.335406 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.335888 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.335888 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.335888 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.336405 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.336405 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.336405 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.336889 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.336889 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.547474 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.741754 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.958756 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.365993 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.365993 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.366495 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.366495 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.366991 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.366991 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.366991 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.367493 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.367493 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.579279 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.785977 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.004635 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.455762 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.456265 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.456265 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.456265 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.456776 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.456776 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.456776 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.457260 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.457260 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.651554 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.877130 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.094292 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.517628 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.517628 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.517628 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.518145 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.518145 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.518145 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.518629 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.518629 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.519129 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.718378 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.941035 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.159692 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.606716 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.606716 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.607215 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.607215 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.607716 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.607716 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.607716 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.608216 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.608216 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.847088 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.065243 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.304122 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.756545 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.757045 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.757045 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.757562 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.757562 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.757562 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.758046 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.758046 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.758549 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.964611 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.191773 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.395959 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.831262 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:193}
+.831775 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.831775 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.831775 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.832262 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.832262 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.832262 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.832764 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.832764 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.072022 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.271354 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.499328 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.942893 [I]: Finished {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:243}
+.186135 [W]: config file config.conf is missing {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:224}
+.194641 [I]: Start {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:228}
+.222160 [D]: Opening file 'small.txt' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:181}
+.222661 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.223161 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.223161 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.223161 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.223161 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.223161 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.223662 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.223662 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.223662 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.223662 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.223662 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.224162 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.224162 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.224162 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.224162 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.224663 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.224663 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.225163 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.225163 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.225163 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.225163 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.225663 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.225663 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.225663 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.226164 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.226663 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.226663 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.226663 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.227164 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.227164 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.227164 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.227164 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.227664 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.227664 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.227664 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.228165 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.228165 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.228165 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.228165 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.228665 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.228665 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.228665 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.228665 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.228665 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.229165 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.229165 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.229165 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.229165 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.229666 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.229666 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.229666 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.229666 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.230166 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.230166 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.230166 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.230166 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.230166 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.230666 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.230666 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.230666 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.230666 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.231167 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.231167 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.231167 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.231667 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.231667 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.231667 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.232168 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.232168 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.232168 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.232168 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.232668 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.232668 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.232668 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.232668 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.233168 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.233168 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.233168 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.233168 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.233168 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.233168 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.233669 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.233669 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.233669 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.233669 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.233669 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.234169 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.234169 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.234169 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.234169 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.234169 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.234670 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.234670 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.234670 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.234670 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.234670 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.234670 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.235170 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.235170 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.235170 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.235170 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.235670 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.235670 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.235670 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.235670 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.235670 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.236171 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.236171 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.236171 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.236171 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.236171 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.236671 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.236671 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.236671 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.236671 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.236671 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.236671 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.237171 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.237171 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.237171 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.237171 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.237171 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.237672 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.237672 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.237672 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.237672 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.237672 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.238171 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.238171 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.238171 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.238171 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.238171 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.238673 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.238673 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.238673 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.238673 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.239173 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.239173 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.239173 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.239173 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.239173 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.239672 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.239672 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.239672 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.239672 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.239672 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.240173 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.240173 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.240173 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.240173 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.240173 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.240673 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.240673 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.240673 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.240673 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.240673 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.241174 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.241174 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.241174 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.241174 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.241174 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.241674 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.241674 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.241674 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.241674 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.241674 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.241674 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.242174 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.242676 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.242676 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.243176 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.243176 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.243176 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.243176 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.243676 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.243676 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.243676 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.243676 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.244176 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.244176 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.244176 [I]: Finished {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:245}
+.520471 [W]: config file config.conf is missing {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:224}
+.522973 [I]: Start {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:228}
+.523473 [D]: Opening file 'small.txt' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:181}
+.523473 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.523473 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.523473 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.523473 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.523973 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.523973 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.523973 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.523973 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.523973 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.523973 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.523973 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.523973 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.527977 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.527977 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.527977 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.527977 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.527977 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.527977 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.527977 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.528478 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.528478 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.528478 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.528478 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.528478 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.530981 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.530981 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.530981 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.530981 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.530981 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.530981 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.531480 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.531480 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.531480 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.531480 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.531480 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.531480 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.533983 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.533983 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.533983 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.533983 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.534483 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.534483 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.534483 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.534483 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.534483 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.534483 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.534483 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.534483 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.536483 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.536483 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.536483 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.536483 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.536483 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.536985 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.536985 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.536985 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.536985 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.536985 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.536985 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.536985 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.538985 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.538985 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.540486 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.540486 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.540486 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.540486 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.540486 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.540988 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.540988 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.540988 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.540988 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.540988 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.542988 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.542988 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.542988 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.542988 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.542988 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.543487 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.543487 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.543487 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.543487 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.543487 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.543487 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.543487 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.546489 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.546489 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.546990 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.546990 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.546990 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.547490 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.547490 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.547490 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.547490 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.547490 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.550996 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.550996 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.554496 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.554496 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.554496 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.554496 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.554996 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.554996 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.554996 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.554996 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.554996 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.554996 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.554996 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.554996 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.557999 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.557999 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.557999 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.558498 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.558498 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.558498 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.558498 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.558498 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.558498 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.558498 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.558498 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.558498 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.562000 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.562000 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.562000 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.562000 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.562502 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.562502 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.565003 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.565003 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.565003 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.565003 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.565003 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.565003 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.568006 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.568006 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.568506 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.568506 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.568506 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.568506 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.572008 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.572508 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.572508 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.572508 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.572508 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.572508 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.576011 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.576011 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.577511 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.577511 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.577511 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.578012 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.585877 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.585877 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.585877 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.586382 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.586382 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.586382 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.590384 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.590882 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.590882 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.590882 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.590882 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.590882 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.594386 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.594386 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.594885 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.594885 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.594885 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.594885 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.598889 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.598889 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.598889 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.599389 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.599389 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.599389 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.602892 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.603391 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.604392 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.604392 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.604392 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.604892 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.609398 [I]: Finished {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:245}
+.850701 [W]: config file config.conf is missing {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:224}
+.855704 [I]: Start {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:228}
+.855704 [D]: Opening file 'small.txt' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:181}
+.856704 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.856704 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.856704 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.857205 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.857205 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.857705 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.857705 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.857705 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.858205 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.858205 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.858706 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.858706 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.861410 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.861410 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.861910 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.861910 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.861910 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.862411 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.862411 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.862911 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.862911 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.862911 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.863411 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.863411 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.865413 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.865913 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.865913 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.865913 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.866414 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.866414 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.866414 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.866914 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.868417 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.868417 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.868915 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.868915 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.870918 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.871417 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.871417 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.871417 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.871917 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.871917 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.872419 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.872419 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.872920 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.872920 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.872920 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.873436 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.875419 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.875921 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.875921 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.876439 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.876439 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.876439 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.876939 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.876939 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.877421 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.877421 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.877421 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.877926 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.879422 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.879924 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.879924 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.880441 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.880441 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.880931 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.880931 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.881443 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.881443 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.881443 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.881443 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.881925 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.883926 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.884426 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.884928 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.884928 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.885428 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.885428 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.885927 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.885927 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.885927 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.886428 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.886428 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.886428 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.888432 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.888930 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.888930 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.888930 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.889432 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.889432 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.889948 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.889948 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.889948 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.890448 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.890448 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.890448 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.892432 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.892932 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.893201 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.893433 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.893433 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.893933 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.894144 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.894144 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.894434 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.894434 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.894434 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.894934 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.896935 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.896935 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.896935 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.897435 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.897699 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.897936 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.897936 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.897936 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.898436 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.898654 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.898936 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.898936 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.902439 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.902439 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.902944 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.902944 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.902944 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.903440 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.905441 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.905941 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.905941 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.906260 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.906442 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.906442 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.908667 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.908667 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.908944 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.908944 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.909564 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.909574 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.914057 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.914057 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.914948 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.915449 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.915449 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.915948 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.920628 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.920644 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.920953 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.920953 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.920953 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.921453 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.925455 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.925752 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.925956 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.925956 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.925956 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.926456 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.928958 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.928958 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.928958 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.929458 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.929458 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.929890 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.934962 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.934962 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.934962 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.935463 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.935463 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.935821 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.938594 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.938965 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.938965 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.939465 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.939606 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.939606 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.943468 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.943468 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.943983 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.944469 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.944469 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.944969 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.948973 [I]: Finished {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:245}
+.734207 [W]: config file config.conf is missing {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:224}
+.740712 [I]: Start {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:228}
+.740712 [D]: Opening file 'small.txt' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:181}
+.741212 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.741212 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.741714 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.741714 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.741714 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.741714 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.742216 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.742216 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.742713 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.742713 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.742713 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.743214 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.745715 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.745715 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.746215 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.746215 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.746215 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.746716 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.746716 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.746716 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.747217 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.747217 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.747217 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.747717 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.749719 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.749719 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.750219 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.750219 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.750219 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.750720 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.750720 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.751219 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.751219 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.751720 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.751720 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.752220 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.755223 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.755223 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.755223 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.755724 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.755724 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.756225 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.756225 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.756225 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.756741 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.756741 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.756741 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.757226 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.759225 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.759225 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.759726 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.759726 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.759726 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.760226 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.760226 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.760226 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.760744 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.760744 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.761229 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.761229 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.763228 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.763228 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.763730 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.763730 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.764247 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.764247 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.764729 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.764729 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.764729 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.765231 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.765231 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.765730 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.768733 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.769233 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.769233 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.769233 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.769733 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.769733 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.770233 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.770233 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.770233 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.770733 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.770733 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.771233 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.773235 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.773235 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.773235 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.773747 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.773747 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.774236 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.774460 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.774460 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.774736 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.774736 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.774736 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.775236 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.777238 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.777238 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.777739 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.777896 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.777896 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.778240 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.778240 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.778786 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.778786 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.778786 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.779239 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.779239 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.781240 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.781240 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.781758 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.781758 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.782241 [D]: Running module toupper {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.782241 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.782610 [D]: Running module decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.782742 [I]: Response success {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:34}
+.782742 [D]: responseCode: 2 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.782742 [D]: Postprocessing by decorate {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.783242 [D]: Postprocessing by cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:51}
+.783242 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.785244 [D]: line: 'Z5TCz4' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.785746 [I]: query: Z5TCz4 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.786135 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.786244 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.786244 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.786244 [I]: response: [39m[39mZ5TCz4[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.788746 [D]: line: 'LbZpGi' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.789294 [I]: query: LbZpGi {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.789294 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.789294 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.789747 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.789747 [I]: response: [39m[39mLbZpGi[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.791748 [D]: line: '1yBK2I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.792086 [I]: query: 1yBK2I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.792086 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.792249 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.792249 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.792755 [I]: response: [39m[39m1yBK2I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.797238 [D]: line: 'EVrL33' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.797238 [I]: query: EVrL33 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.797473 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.797473 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.797990 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.797990 [I]: response: [39m[39mEVrL33[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.802474 [D]: line: 'yeiwtR' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.802474 [I]: query: yeiwtR {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.802975 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.803155 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.803155 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.803475 [I]: response: [39m[39myeiwtR[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.809071 [D]: line: 'B0INcc' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.809071 [I]: query: B0INcc {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.809572 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.809806 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.810071 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.810071 [I]: response: [39m[39mB0INcc[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.814075 [D]: line: 'szyG3Y' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.814575 [I]: query: szyG3Y {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.814814 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.815077 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.815575 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.815575 [I]: response: [39m[39mszyG3Y[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.819578 [D]: line: 'nl8kmq' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.820078 [I]: query: nl8kmq {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.820366 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.820586 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.820586 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.820586 [I]: response: [39m[39mnl8kmq[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.823729 [D]: line: 'VSgo6r' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.824081 [I]: query: VSgo6r {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.824582 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.824582 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.824582 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.825083 [I]: response: [39m[39mVSgo6r[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.828584 [D]: line: 'UCCg0I' {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:195}
+.828584 [I]: query: UCCg0I {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:25}
+.829232 [D]: Running module cache {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:29}
+.829232 [I]: Response done {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:37}
+.829232 [D]: responseCode: 1 {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:46}
+.829585 [I]: response: [39m[39mUCCg0I[0m[0m {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:56}
+.833616 [I]: Finished {C:\Users\Filip_000\Desktop\Git\c-modular-processing\c-modular-processing\main.c:245}

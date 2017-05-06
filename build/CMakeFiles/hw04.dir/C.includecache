@@ -55,6 +55,8 @@ stdlib.h
 -
 string.h
 -
+stdbool.h
+-
 ctype.h
 -
 log.h

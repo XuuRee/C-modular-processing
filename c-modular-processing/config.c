@@ -112,12 +112,37 @@ unsigned int endIndex(char *value)
 }
 
 
+unsigned int findEqualCharacter(char *value)
+{
+    for (unsigned int i = 0; i < strlen(value); i++) {
+        if (value[i] == '=') {
+            return i;
+        }
+    }
+
+    return 0;
+}
+
+
+bool whiteSpaces(char *value)
+{
+    for (unsigned int i = 0; i < strlen(value); i++) {
+        if (!isspace(value[i])) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+
 bool configAddValue(struct section *sec,
                     char *buffer,
                     unsigned int index,
                     unsigned int *memory)
 {
     assert(sec != NULL);
+    assert(buffer != NULL);
 
     if (index >= *memory) {
         sec->keys = (char**)realloc(sec->keys, (*memory + *memory) * sizeof(char*));
@@ -132,10 +157,15 @@ bool configAddValue(struct section *sec,
         *memory += *memory;
     }
 
+    unsigned int equal = findEqualCharacter(buffer);
+    char *value = buffer + (equal + 1);
+
     char *key = strtok(buffer, " \t\n\v\f\r=");
-    char *value = strtok(NULL, "\n");
+    value = strtok(value, "\n");
 
     if (key && !value) {
+        value = "";
+    } else if (whiteSpaces(value)) {
         value = "";
     } else {
         value = value + startIndex(value);;
@@ -183,27 +213,12 @@ char *readLine(FILE *file)
 }
 
 
-/**
- * Check if the first character of line is ';'
- *
- * @param   character const char
- * @return  true if characters are equal,
- *          false otherwise
- */
 bool commentLine(const char character)
 {
     return (character == ';') ? true : false;
 }
 
 
-/**
- * Check if given line of the file is useless.
- * That means if there is commentary, empty line
- * or whitespaces.
- *
- * @param   line given line from file (buffer)
- * @return  true if line is useless, false otherwise
- */
 bool unusedLine(const char *line)
 {
     if (commentLine(line[0])) {
@@ -245,14 +260,6 @@ bool checkSecondSquareBracket(const char *line, unsigned int *end)
 }
 
 
-/**
- * Check if given char is allowed character
- * (one of the: dash, underscore or colon)
- *
- * @param   character given char from line
- * @return  true if character is allowed,
- *          false otherwise
- */
 bool isPunctuation(const char character)
 {
     switch(character) {
@@ -264,13 +271,6 @@ bool isPunctuation(const char character)
 }
 
 
-/**
- * Check if given section fulfill criteria
- * from task.
- *
- * @param   line given line of the file (buffer)
- * @return  true if line is fine, false otherwise
- */
 bool checkSection(const char *line)
 {
     unsigned int end = 0;
@@ -361,6 +361,14 @@ void cleanValues(char **values)
     }
 
     free(values);
+}
+
+
+void cleanBufferKeys(char **values, unsigned int size)
+{
+    for (unsigned int i = 0; i < size; i++) {
+        free(values[i]);
+    }
 }
 
 
@@ -455,6 +463,7 @@ bool validFile(FILE *file)
                 }
                 if (newSectionIndicator) {
                     newSectionIndicator = false;
+                    cleanBufferKeys(keys, indexKeys);
                     memoryInit(keys, 0);
                     memoryKeys = 10;
                     indexKeys = 0;
@@ -506,13 +515,13 @@ int configRead(struct config *cfg, const char *name)
     assert(name != NULL);
     assert(cfg != NULL);
 
+    listInit(cfg);
+
     FILE* configFile = fopen(name, "r");
 
     if (!configFile) {
         return 1;
     }
-
-    listInit(cfg);
 
     if (!validFile(configFile)) {
         fclose(configFile);
@@ -557,15 +566,29 @@ int configRead(struct config *cfg, const char *name)
 
 bool findKey(char **keys, const char *seek, unsigned int *index)
 {
-    while (*keys) {
-        if (strcmp(*keys, seek) == 0) {
+    for (unsigned int i = 0; keys[i] != NULL; i++) {
+        if (strcmp(keys[i], seek) == 0) {
             return true;
         }
-        keys++;
         (*index)++;
     }
-
     return false;
+}
+
+
+int cfgBoolString(char *query)
+{
+    if (strcmp(query, "true") == 0) {
+        return 1;
+    } else if (strcmp(query, "yes") == 0) {
+        return 1;
+    }  else if (strcmp(query, "false") == 0) {
+        return 0;
+    } else if (strcmp(query, "no") == 0) {
+        return 0;
+    } else {
+        return -1;
+    }
 }
 
 
@@ -577,7 +600,7 @@ int configValue(const struct config *cfg,
 {
     assert(cfg != NULL);
     assert(key != NULL);
-    assert(section != NULL);
+    assert(section != NULL);    // co configValueType?
 
     struct section *current = cfg->head;
 
@@ -592,9 +615,11 @@ int configValue(const struct config *cfg,
                 int resultInteger = -1, *result = &resultInteger;
                 switch(type) {
                 case CfgString:
+                    if (valueFromCfg == NULL) {
+                        return 3;
+                    }
                     *((const char**)value) = valueFromCfg;
                     return 0;
-
                 case CfgInteger:
                     resultInteger = strtol(valueFromCfg, &buffer, 10);
                     if (valueFromCfg == buffer) {
@@ -605,13 +630,17 @@ int configValue(const struct config *cfg,
                     }
                     *((int*)value) = *result;
                     return 0;
-
                 case CfgBool:
+                    resultInteger = cfgBoolString(valueFromCfg);
+                    if (resultInteger == 0 || resultInteger == 1) {
+                        *((int*)value) = *result;
+                        return 0;
+                    }
                     resultInteger = strtol(valueFromCfg, &buffer, 10);
                     if (valueFromCfg == buffer) {
                         return 3;
                     }
-                    if (*result != 1 && *result != 0) {
+                    if (!(*result == 1 || *result == 0)) {
                         return 3;
                     }
                     *((int*)value) = *result;
@@ -621,7 +650,6 @@ int configValue(const struct config *cfg,
                 }
             }
         }
-
         current = current->next;
     }
 
